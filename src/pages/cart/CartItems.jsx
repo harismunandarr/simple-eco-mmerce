@@ -31,7 +31,7 @@ export function CartItems({ data }) {
         </div>
         <button
         className='bg-gray-500 h-10 rounded-md text-white outline-none'
-        onClick={() => removeProduct(id)}>Delete Product</button>
+        onClick={() => removeProduct(id)}>Remove Product</button>
       </div>
     </div>
   )
